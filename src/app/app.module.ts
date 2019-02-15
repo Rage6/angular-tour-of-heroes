@@ -13,6 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 // ---- Installed for testing as a fake server. REMOVE OR COMMENT OUT WHEN USING ON REMOTE SERVER
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 // ----
 
 @NgModule({
@@ -21,7 +22,8 @@ import { InMemoryDataService } from './in-memory-data.service';
     HeroesComponent,
     HeroDetailComponent,
     MessageComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
