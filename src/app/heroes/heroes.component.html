@@ -6,5 +6,17 @@
     <a routerLink="/detail/{{ oneHero.id }}">
       <span class="badge">{{ oneHero.id }}</span> {{ oneHero.name }}
     </a>
+    <button class="badge" title="delete hero" (click)="delete(oneHero)">
+      X
+    </button>
   </li>
 </ul>
+<div>
+  <label style="display: block">
+    Hero Name:
+    <input #heroName />
+  </label>
+  <button (click)="add(heroName.value); heroName.value=''">
+    ADD
+  </button>
+</div>
