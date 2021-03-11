@@ -1,0 +1,18 @@
+ANGULAR TUTORIAL (v7.2.4)
+Date: 15FEB2019
+
+** -- INTRODUCTION -- **
+
+- Nothing worth explaining
+
+
+** -- APPLICATION SHELL -- **
+
+- Make sure NPM, Node.js, and Angular are already there and working:
+	NPM: run "npm -v" on the Terminal
+	Node.js: run "node -v" on the Terminal
+	Angular: run "ng version"
+- If any of these are missing, see this website: https://angular.io/guide/quickstart#prerequisites
+- Angular's "CLI" means "Command Line Interface". All you need to know is that, if you want to send an Angular command on the terminal, then you have to start it with 'ng' first.
+- Now, start your "workspace" (which could be filled with more than one project/app) use this command:
+	ng new name-of-project-here

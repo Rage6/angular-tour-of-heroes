@@ -5,6 +5,10 @@ body, input[type="text"], button {
   color: #888;
   font-family: Cambria, Georgia;
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+};
 div {
   h1 {
     color: #369;
